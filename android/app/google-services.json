@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "581406107331",
+    "firebase_url": "https://potent-thought-132923.firebaseio.com",
+    "project_id": "potent-thought-132923",
+    "storage_bucket": "potent-thought-132923.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581406107331:android:a82e08a0e3f7bcd31fa476",
+        "android_client_info": {
+          "package_name": "com.study_ios"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581406107331-t805fei7gmmqct45uf2qa9bgus359oif.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_UcbbMbaOZ_S93_iUfWge4ES9-KLFvmQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581406107331-t805fei7gmmqct45uf2qa9bgus359oif.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

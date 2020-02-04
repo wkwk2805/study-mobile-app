@@ -1,10 +1,19 @@
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import React from "react";
+import { StyleSheet, Text, View, Alert } from "react-native";
+import axios from "axios";
 
 export default function App() {
+  const message = () => {
+    axios
+      .get("http://mobile.study.or.kr:3000")
+      .then(data => {
+        console.log(data);
+      })
+      .catch(e => console.error(e));
+  };
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text onPress={message}>Hello world</Text>
     </View>
   );
 }
@@ -12,8 +21,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
+    backgroundColor: "#fff",
+    alignItems: "center",
+    justifyContent: "center"
+  }
 });

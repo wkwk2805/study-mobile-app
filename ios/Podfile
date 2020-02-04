@@ -43,4 +43,6 @@ target 'study_ios' do
 
   # Automatically detect installed unimodules
   use_unimodules!
+  pod 'RNFirebase', :path => '../node_modules/react-native-firebase'
+
 end
